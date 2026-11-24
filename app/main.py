@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 #this is the fastapi application here!!!
 app = FastAPI(
     title="ICT University AI Chatbot",
-    description="A university chatbot powered by RAG and Qwen3 1B",
+    description="A university chatbot powered by RAG and gemma3:1b",
     version = "1.0.0"
 )
 
